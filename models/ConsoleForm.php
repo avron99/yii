@@ -21,6 +21,10 @@
 		public $ip_list;
 		const IP_ADDR_MASK = '/10\.\d{1,3}\.\d{1,3}\.\d{1,3}/';
 		public $ipl;
+		public $command_list;
+		public $command_url;
+		public $commands;
+
 		public function getAttribute($name)
 		{
 			return $this->$name;
@@ -54,7 +58,7 @@
 	{
 		return [
 			// are both required
-			[['ip','port','dir'], 'required'],
+			[['ip','port','dir','commands'], 'required'],
 			[['url'], 'string'],
 			[['except_ip'], 'string']
 
