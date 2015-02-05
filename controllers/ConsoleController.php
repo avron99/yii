@@ -49,7 +49,7 @@ namespace app\controllers;
 //
 				}
 			}
-			
+
 
 			return $this->render('console', [
 				'model' => $model
