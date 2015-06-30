@@ -69,7 +69,7 @@
 			</div>
 				<div class="row">
 				<div class="span12">
-					<iframe src="<?php echo sprintf("http://support:tErm1n4L@%s:%d%s", $key, $model->port, (empty($model->url) ? $model->command_url : $model->url)); ?>"
+					<iframe src="<?php echo sprintf("http://login:pass@%s:%d%s", $key, $model->port, (empty($model->url) ? $model->command_url : $model->url)); ?>"
 							style="width:100%;" name="frame_<?php echo $key ?>" id="frame<?php echo $key ?>"></iframe>
 				</div>
 				</div>
