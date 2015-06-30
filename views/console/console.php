@@ -65,7 +65,7 @@
 
 
 
-				<h3><a class="brand" href="<?php echo sprintf("http://support:tErm1n4L@%s:%s/lz.php", $key, $model->port); ?>"><?php echo sprintf("%s", $key); ?></a></h3>
+				<h3><a class="brand" href="<?php echo sprintf("http://login:pass@%s:%s/lz.php", $key, $model->port); ?>"><?php echo sprintf("%s", $key); ?></a></h3>
 			</div>
 				<div class="row">
 				<div class="span12">
